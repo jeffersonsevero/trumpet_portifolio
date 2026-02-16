@@ -112,7 +112,7 @@ const Biography: React.FC = () => {
             <div className="relative overflow-hidden rounded-2xl group">
               <img 
                 className="w-full  object-cover filter grayscale sepia-[0.1] group-hover:scale-105 transition-transform duration-1000" 
-                src="public/tulio.webp" 
+                src="https://jeffersonsevero.github.io/trumpet_portifolio/tulio.webp" 
                 alt="Musician portrait" 
               />
               <div className="absolute inset-0 bg-primary/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity" />
