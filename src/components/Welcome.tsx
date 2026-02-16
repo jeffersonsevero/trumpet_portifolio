@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-2 group cursor-pointer">
           <Music className="text-primary w-8 h-8 group-hover:rotate-12 transition-transform" />
-          <span className="text-2xl font-black tracking-tighter uppercase">Trumpeter<span className="text-primary">.</span></span>
+          <span className="text-2xl font-black tracking-tighter uppercase">Túlio Sopro<span className="text-primary">.</span></span>
         </div>
         
         <nav className="hidden md:flex items-center gap-10">
@@ -111,8 +111,8 @@ const Biography: React.FC = () => {
             <div className="absolute -bottom-10 -right-10 w-48 h-48 border-r-[6px] border-b-[6px] border-primary/20" />
             <div className="relative overflow-hidden rounded-2xl group">
               <img 
-                className="w-full h-[700px] object-cover filter grayscale sepia-[0.1] group-hover:scale-105 transition-transform duration-1000" 
-                src="https://images.unsplash.com/photo-1514525253344-f814d0c9e58f?q=80&w=1500&auto=format&fit=crop" 
+                className="w-full  object-cover filter grayscale sepia-[0.1] group-hover:scale-105 transition-transform duration-1000" 
+                src="public/tulio.webp" 
                 alt="Musician portrait" 
               />
               <div className="absolute inset-0 bg-primary/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -315,7 +315,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="flex items-center gap-3">
             <Music className="text-primary w-6 h-6" />
-            <span className="text-xl font-black tracking-tighter uppercase text-white">Trumpeter<span className="text-primary">.</span></span>
+            <span className="text-xl font-black tracking-tighter uppercase text-white">Túlio Souza<span className="text-primary">.</span></span>
           </div>
           
           <p className="text-slate-500 text-sm font-medium text-center md:text-left">
