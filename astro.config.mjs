@@ -8,7 +8,7 @@ import react from '@astrojs/react';
 export default defineConfig({
 
   site: 'https://jeffersonsevero.github.io',
-  base: 'trumpet_portifolio',
+  base: '/trumpet_portifolio/',
 
 
   vite: {
